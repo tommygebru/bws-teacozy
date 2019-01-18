@@ -1,0 +1,141 @@
+/*********************************
+             B A S E
+*********************************/
+
+* {
+	/*background: rgba(0,0,0,.125);*/
+}
+body, html {
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column {
+	flex-direction: column;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.between {
+	justify-content: space-between;
+}
+.around {
+	justify-content: space-around;
+}
+/*********************************
+          H E A D E R
+*********************************/
+
+header {
+	position: fixed;
+	top: 0;
+	height: 69px;
+	border-bottom: seashell solid 1px;
+	padding: 0 10px;
+	width: 100%;
+	background: black;
+}
+header img {
+	height: 50px;
+}
+header nav a {
+	color: inherit;
+}
+/*********************************
+       N A V I G A T I O N
+*********************************/
+
+main {
+	margin: 69px auto;
+	background-image: url("./resources/img-mission-background.jpg");
+	height: 700px;
+	width: 1200px;
+}
+/*********************************
+       N A V I G A T I O N
+*********************************/
+
+header nav a {
+	margin: 0 15px;
+	text-decoration: underline;
+}
+/*********************************
+          B A N N E R
+*********************************/
+
+.banner-message {
+	width: inherit;
+	background: black;
+}
+.banner-message h2, .banner-message h4 {
+	margin: 15px;
+}
+/*********************************
+    S E C T I O N . M O N T H
+*********************************/
+
+section.tea-month * {
+	/*border: 2.5px dotted teal;*/
+}
+section.tea-month {
+	width: 1000px;
+	margin: 70px auto;
+}
+section.tea-month .tea-wrap {}
+section.tea-month .tea-wrap div {
+	margin: 10px;
+}
+section.tea-month .tea-wrap div span {
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+section.tea-month img {
+	height: 200px;
+	width: inherit;
+}
+/*********************************
+S E C T I O N . L O C A T I O N S
+*********************************/
+
+section.tea-locations * {
+	/*border: 2.5px dotted teal;*/
+}
+section.tea-locations {
+	background-image: url("./resources/img-locations-background.jpg");
+	background-position: center;
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+section.tea-locations .locations-wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+section.tea-locations .locations-wrap article {
+	display: flex;
+	width: 300px;
+	height: 280px;
+	background: black;
+	opacity: 1;
+}
+section.tea-locations .locations-wrap article h3, section.tea-locations .locations-wrap article span {
+	padding: 0;
+	margin: 0;
+}
+footer {
+	height: 200px; 
+}
+aside h5 {
+	text-align: left;
+	text-indent: 20px;
+}
